@@ -569,6 +569,9 @@ section {
   border-radius: 6px;
   transition: 0.5s;
 }
+.icon img {
+  width: 100%;
+}
 .about .icon-box .icon i {
   color: #e9801f;
   font-size: 32px;
@@ -821,14 +824,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Portfolio
+# Our Images
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 .portfolio #portfolio-flters {
   padding: 0;
-  margin: 0 0 35px 0;
+  margin: 0;
   list-style: none;
   text-align: center;
 }
@@ -1066,6 +1069,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
+  display: none;
   padding-bottom: 30px;
 }
 .faq .faq-item {
